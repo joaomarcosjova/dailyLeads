@@ -1,0 +1,27 @@
+
+{
+    "manifest_version": 3,
+    "name": "dailyLeads",
+    "version": "1.0",
+    "description": "The best and fastest way to keep track of all your leads in 1 Place while you search the web. Easy the FREE to use, no login required.",
+  
+    "permissions": [
+      "activeTab"
+    ],
+  
+    "background": {
+      "service_worker": "background.js"
+    },
+  
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "team.png"
+    },
+  
+    "icons": {
+      "16": "team.png",
+      "48": "team.png",
+      "128": "team.png"
+    }
+  }
+  
